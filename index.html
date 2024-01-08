@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do list</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">To-do list</h1>
+    </header>
+    <!-- /.header -->
+
+    <main class="main">
+        <label for="to-do"
+                   class="visually-hidden">
+                        Input
+        </label>
+        <input type="text" 
+                    id="to-do" 
+                    placeholder="Введите задачу..."
+                    class="main__input"
+        />
+        <button class="main__create-btn"
+                      id="create">
+            Добавить в список
+        </button>
+        <button class="main__create-btn"
+                      id="clear">
+            Отчистить список
+        </button>
+        <ul class="main__list"
+              id="list">
+            <li class="main__list-item visually-hidden">
+                <span>Здесь что-то есть</span>
+                <button class="main__delete-btn" id="times-btn">&times;</button>
+            </li>
+        </ul>
+    </main>
+    <!-- /.main -->
+
+    <footer class="footer">
+        <!-- просто оставлю это здесь -->
+        <!-- <a href="https://github.com/DanilaSankin" 
+             target="_blank"
+             class="footer__link">
+            My GitHub profile
+        </a> -->
+    </footer>
+    <!-- /.footer -->
+
+    <script src="app.js"></script>
+</body>
+</html>
