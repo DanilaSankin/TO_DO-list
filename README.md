@@ -1,4 +1,4 @@
-#To-do list
+# To-do list
 
 This application is written in **pure js**
 
